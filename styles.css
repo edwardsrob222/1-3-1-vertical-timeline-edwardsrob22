@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+div:not(.container) {
+  height: 250px;
+  width: 250px;
+  background-color: gray;
+  border: solid black 2px;
+}
+
+body {
+  background-color: lightblue;
+}
