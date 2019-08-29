@@ -11,8 +11,7 @@ p {
   font-size: 8px;
   position: relative;
   bottom: 10px;
-  left: 5px;
-  right: 7px;
+  left: 3px;
 }
 
 img {
@@ -83,4 +82,26 @@ button {
   bottom: 8px;
   left: 8px;
   color: #fff;
+}
+
+
+/*this is doing a fade instead of sliding*/
+@keyframes slide-left {
+  0% {
+    -webkit-trasform: translateX(100px);
+    opacity: 0;
+  }
+  60% {
+    opacity: .5;
+  }
+  100% {
+    -webkit-trasform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.timeline {
+  -webkit-animation: slide-left 2s;
+  -mox-animation: slide-left 2s;
+  -animation: slide-left 2s;
 }
