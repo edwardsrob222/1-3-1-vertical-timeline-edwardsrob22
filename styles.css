@@ -16,9 +16,23 @@ p {
 }
 
 img {
-  position: ;
+  position: absolute;
   height: 40%;
   width: 100%;
+}
+
+h3 {
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.date1 {
+  margin-right: 8px;
+  margin-top: 7px;
+  float: right;
+  font-family: sans-serif;
+  background-color: #ff0066;
+  color: #fff;
 
 }
 
@@ -39,7 +53,7 @@ img {
   left: 50%;
   right: 0;
 
-  background: blue;
+  background: #006666;
 }
 
 .timeline-item {
@@ -63,9 +77,10 @@ img {
 }
 
 button {
-  background-color: blue;
+  background-color: #006666;
   font-family: sans-serif;
   position: relative;
   bottom: 8px;
   left: 8px;
+  color: #fff;
 }
